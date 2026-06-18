@@ -1,4 +1,5 @@
-## Hi there 👋
+<h2>Hi 👋 I'm Hassan Khan</h2>
+<p>Frontend Developer specializing in React.js, Next.js, and TypeScript.</p>
 
 <!--
 **Hassankhn/Hassankhn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
