@@ -3,7 +3,8 @@
   # Hi there, I'm Hassan Khan 👋 
   ### **Senior React Native & Front-End Engineer**
   
-  [![Open to Relocation](https://img.shields.scope.dev/badge/Relocation-Open%20to%20Amsterdam-00f2fe?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
+  [![Live Portfolio](https://img.shields.io/badge/🌐_Interactive_Portfolio-Click_to_View-00f2fe?style=for-the-badge&logoColor=white)](https://hassankhn.github.io/Hassankhn/)
+  [![Open to Relocation](https://img.shields.io/badge/Relocation-Open%20to%20Amsterdam-00f2fe?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
   [![Email](https://img.shields.io/badge/Email-hassandev8%40gmail.com-4facfe?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hassandev8@gmail.com)
   [![GitHub Followers](https://img.shields.io/github/followers/Hassankhn?style=for-the-badge&color=7f00ff&logo=github)](https://github.com/Hassankhn)
 
@@ -36,24 +37,24 @@ Senior Mobile & Front-End Engineer with **3+ years building cross-platform appli
 
 <div align="center">
 
-| Domain | Technologies & Libraries |
+| Domain | Technologies & Badges |
 | :--- | :--- |
-| **Mobile Development** | `React Native` • `iOS` • `Android` • `Expo` • `Native Modules` • `Biometrics` |
-| **Frontend & Web** | `React.js` • `Next.js` • `TypeScript` • `JavaScript (ES6+)` • `HTML5` • `CSS3` |
-| **State & API** | `Redux` • `MobX` • `Context API` • `React Query` • `RESTful APIs` • `GraphQL` • `WebSockets` |
-| **Testing & Tools** | `Jest` • `React Testing Library` • `Detox (E2E)` • `Git` • `CI/CD` • `Firebase` • `Fastlane` |
-| **UI/UX & Styling** | `Tailwind CSS` • `Material-UI` • `Chakra UI` • `Figma-to-Code` • `Glassmorphism` |
+| **Mobile Development** | ![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black) ![iOS](https://img.shields.io/badge/iOS-000000?style=flat-square&logo=apple&logoColor=white) ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white) ![Expo](https://img.shields.io/badge/Expo-000000?style=flat-square&logo=expo&logoColor=white) |
+| **Frontend & Web** | ![React.js](https://img.shields.io/badge/React.js-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
+| **State & API** | ![Redux](https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=redux&logoColor=white) ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white) ![REST](https://img.shields.io/badge/REST_API-0055DA?style=flat-square&logo=postman&logoColor=white) |
+| **Testing & Tools** | ![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black) |
+| **UI/UX & Styling** | ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) ![Material-UI](https://img.shields.io/badge/Material--UI-0081CB?style=flat-square&logo=mui&logoColor=white) ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white) |
 
 </div>
 
 <br />
 
-## 📊 GitHub Profile Stats
+## 📊 GitHub Activity & Metrics
 
 <div align="center">
 
-  <img height="185" src="https://github-readme-stats.vercel.app/api?username=Hassankhn&show_icons=true&theme=cyberpunk&hide_border=true&count_private=true" alt="Hassan Khan's GitHub Stats" />
-  <img height="185" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hassankhn&layout=compact&theme=cyberpunk&hide_border=true" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Hassankhn&show_icons=true&theme=dark&hide_border=false" alt="Hassan Khan's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hassankhn&layout=compact&theme=dark&hide_border=false" alt="Top Languages" />
 
 </div>
 
