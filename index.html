@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Hassan Khan — Senior React Native & Front-End Engineer</title>
+  <meta name="description" content="Portfolio & Profile of Hassan Khan, Senior React Native & Front-End Developer specializing in React.js, Next.js, TypeScript, and high-performance cross-platform mobile & web apps.">
+  <meta name="keywords" content="Hassan Khan, React Native Developer, Front-End Engineer, React.js, Next.js, TypeScript, Mobile Developer, Amsterdam Relocation">
+  <meta name="author" content="Hassan Khan">
+
+  <!-- Fonts & Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Favicon / Touch Icon Placeholder -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+</head>
+<body>
+
+  <!-- Ambient Glow Backdrop -->
+  <div class="bg-glow-container" aria-hidden="true">
+    <div class="glow-orb glow-orb-1"></div>
+    <div class="glow-orb glow-orb-2"></div>
+    <div class="glow-orb glow-orb-3"></div>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header>
+    <nav class="navbar" id="navbar">
+      <a href="#hero" class="nav-brand">
+        <span class="dot"></span>
+        Hassan Khan
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#github" class="nav-link">GitHub Stats</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button id="theme-toggle-btn" class="btn-icon" title="Toggle Light/Dark Theme" aria-label="Toggle Theme">
+          <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 3a9 9 0 1 0 9 9c0-.46-.04-.92-.1-1.36a5.389 5.389 0 0 1-4.4 2.26 5.403 5.403 0 0 1-5.4-5.4c0-1.81 .89-3.42 2.26-4.4C12.92 3.04 12.46 3 12 3z"/>
+          </svg>
+        </button>
+
+        <a href="#contact" class="btn btn-primary">Hire Me</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="container hero-section" id="hero">
+      <div class="hero-content">
+        <div class="status-pill">
+          <span class="status-dot"></span>
+          Open to Relocation — Amsterdam
+        </div>
+
+        <h1>
+          Hi, I'm <span class="gradient-text">Hassan Khan</span>
+        </h1>
+
+        <div class="hero-subtitle">
+          I build high-performance cross-platform applications. <br>
+          <span id="typewriter-text" class="typewriter-text">Senior React Native Engineer</span>
+        </div>
+
+        <p style="color: var(--text-muted); margin-bottom: 32px; font-size: 1.05rem;">
+          3+ years engineering production mobile & web applications. Shipped apps serving <strong style="color: var(--text-main);">500K+ active users</strong> with up to <strong style="color: var(--accent-cyan);">30x performance speedup</strong>. Focused on exceptional UX, clean architecture, and rapid deployment.
+        </p>
+
+        <div class="hero-cta">
+          <button id="copy-email-btn" class="btn btn-primary">
+            <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+            </svg>
+            hassandev8@gmail.com
+          </button>
+
+          <a href="https://github.com/Hassankhn" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+            <svg width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.28.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+            </svg>
+            GitHub Profile
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="avatar-wrapper">
+          <img src="assets/avatar.jpg" alt="Hassan Khan - Front-End & Mobile Engineer" class="avatar-img">
+
+          <div class="floating-badge badge-1">
+            <span style="font-size: 1.2rem;">📱</span>
+            React Native Expert
+          </div>
+
+          <div class="floating-badge badge-2">
+            <span style="font-size: 1.2rem;">🚀</span>
+            30x App Acceleration
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS COUNTER SECTION -->
+    <section class="container" id="stats-section" style="padding-top: 40px; padding-bottom: 60px;">
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-number gradient-text"><span class="counter-val" data-target="500">0</span>K+</div>
+          <div class="stat-label">Production App Users Served</div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-number gradient-text"><span class="counter-val" data-target="30">0</span>x</div>
+          <div class="stat-label">Performance Improvement Achieved</div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-number gradient-text"><span class="counter-val" data-target="20">0</span>+</div>
+          <div class="stat-label">Mobile & Web Apps Delivered</div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-number gradient-text"><span class="counter-val" data-target="100">0</span>%</div>
+          <div class="stat-label">5-Star Client Satisfaction</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT & CODE PLAYGROUND -->
+    <section class="container" id="about">
+      <div class="section-header">
+        <span class="section-tag">Engineering Focus</span>
+        <h2 class="section-title">Architecting Native Performance on Web & Mobile</h2>
+        <p class="section-desc">Specializing in React Native, React.js, Next.js, and TypeScript to deliver high-converting, resilient digital experiences.</p>
+      </div>
+
+      <!-- IDE / Terminal Preview Card -->
+      <div class="terminal-card">
+        <div class="terminal-header">
+          <div class="window-dots">
+            <span class="dot-red"></span>
+            <span class="dot-yellow"></span>
+            <span class="dot-green"></span>
+          </div>
+
+          <div style="display: flex; gap: 16px;">
+            <button id="terminal-tab-rn" style="background: none; border: none; font-family: 'Fira Code', monospace; color: var(--accent-cyan); font-weight: 600; cursor: pointer;">PerformanceList.tsx</button>
+            <button id="terminal-tab-cfg" style="background: none; border: none; font-family: 'Fira Code', monospace; color: var(--text-muted); font-weight: 600; cursor: pointer;">hassan.config.ts</button>
+          </div>
+
+          <span class="terminal-title">VS Code — Hassan Studio</span>
+        </div>
+
+        <div class="terminal-body" id="terminal-code-body">
+<span class="code-comment">// Hassan Khan - Senior React Native Engineer</span>
+<span class="code-keyword">import</span> React, { useCallback } <span class="code-keyword">from</span> <span class="code-string">'react'</span>;
+<span class="code-keyword">import</span> { View, Text, StyleSheet } <span class="code-keyword">from</span> <span class="code-string">'react-native'</span>;
+
+<span class="code-keyword">export const</span> <span class="code-function">PerformanceOptimizedList</span> = ({ items }) => {
+  <span class="code-comment">// 30x Performance Improvement via Render Optimization & Lazy Loading</span>
+  <span class="code-keyword">const</span> renderItem = <span class="code-function">useCallback</span>(({ item }) => (
+    &lt;<span class="code-prop">ItemCard</span> key={item.id} data={item} /&gt;
+  ), []);
+
+  <span class="code-keyword">return</span> (
+    &lt;<span class="code-prop">View</span> style={styles.container}&gt;
+      &lt;<span class="code-prop">Text</span> style={styles.badge}&gt;500K+ Active Users Supported&lt;/<span class="code-prop">Text</span>&gt;
+    &lt;/<span class="code-prop">View</span>&gt;
+  );
+};
+        </div>
+      </div>
+    </section>
+
+    <!-- LIVE GITHUB PROFILE STATS INTEGRATION -->
+    <section class="container" id="github">
+      <div class="section-header">
+        <span class="section-tag">Live GitHub Integration</span>
+        <h2 class="section-title">Open Source & Repository Activity</h2>
+        <p class="section-desc">Live synchronization with my public GitHub profile (<a href="https://github.com/Hassankhn" target="_blank" style="color: var(--accent-cyan);">@Hassankhn</a>).</p>
+      </div>
+
+      <div class="github-dashboard-card">
+        <div class="gh-header">
+          <div class="gh-user-info">
+            <img src="assets/avatar.jpg" id="gh-avatar-img" alt="GitHub Avatar" class="gh-avatar">
+            <div>
+              <h3 style="font-size: 1.2rem;">Hassan Khan</h3>
+              <p id="gh-bio" style="font-size: 0.88rem; color: var(--text-muted);">Frontend & React Native Engineer building high scale cross-platform apps.</p>
+            </div>
+          </div>
+
+          <a href="https://github.com/Hassankhn" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="padding: 8px 18px; font-size: 0.85rem;">
+            Follow @Hassankhn
+          </a>
+        </div>
+
+        <div class="gh-metrics">
+          <div class="gh-metric-box">
+            <div class="gh-metric-val" id="gh-public-repos">15+</div>
+            <div class="gh-metric-lbl">Public Repositories</div>
+          </div>
+
+          <div class="gh-metric-box">
+            <div class="gh-metric-val" id="gh-followers">10+</div>
+            <div class="gh-metric-lbl">GitHub Followers</div>
+          </div>
+
+          <div class="gh-metric-box">
+            <div class="gh-metric-val" style="color: var(--accent-emerald);">85%+</div>
+            <div class="gh-metric-lbl">Test Coverage (Jest)</div>
+          </div>
+        </div>
+
+        <h4 style="font-size: 1.05rem; margin-bottom: 16px; color: var(--text-main);">Recent GitHub Repositories</h4>
+        <div class="gh-repos-list" id="gh-repos-container">
+          <!-- Dynamically populated or static fallbacks -->
+          <div class="gh-repo-item">
+            <a href="https://github.com/Hassankhn" target="_blank" class="repo-name">
+              ⚡ Hassankhn (Profile README)
+            </a>
+            <p class="repo-desc">Official GitHub profile landing page repository featuring cross-platform engineering stats and skills showcase.</p>
+            <div style="margin-top: 10px; font-size: 0.78rem; color: var(--accent-cyan); font-weight: 600;">
+              TypeScript • React Native
+            </div>
+          </div>
+
+          <div class="gh-repo-item">
+            <a href="https://github.com/Hassankhn" target="_blank" class="repo-name">
+              🚀 React-Native-Biometrics-Auth
+            </a>
+            <p class="repo-desc">Secure biometric authentication integration layer (Face ID, Fingerprint) for React Native mobile applications.</p>
+            <div style="margin-top: 10px; font-size: 0.78rem; color: var(--accent-cyan); font-weight: 600;">
+              React Native • Native Modules
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS MATRIX -->
+    <section class="container" id="skills">
+      <div class="section-header">
+        <span class="section-tag">Technical Competencies</span>
+        <h2 class="section-title">Skills & Modern Tech Stack</h2>
+        <p class="section-desc">End-to-end expertise in mobile development, modern front-end frameworks, state management, and automated testing.</p>
+      </div>
+
+      <div class="skills-tabs">
+        <button class="tab-btn active" data-filter="all">All Skills</button>
+        <button class="tab-btn" data-filter="mobile">Mobile Development</button>
+        <button class="tab-btn" data-filter="frontend">Frontend & Web</button>
+        <button class="tab-btn" data-filter="tools">Testing & Tools</button>
+      </div>
+
+      <div class="skills-grid" id="skills-container">
+        <!-- Skill Item 1 -->
+        <div class="skill-card" data-category="mobile">
+          <div class="skill-head">
+            <div class="skill-icon-box">⚛️</div>
+            <div>
+              <div class="skill-name">React Native (Expert)</div>
+              <span style="font-size: 0.8rem; color: var(--accent-cyan);">Cross-Platform Architecture</span>
+            </div>
+          </div>
+          <p style="font-size: 0.88rem; color: var(--text-muted);">iOS & Android app architecture, Native Modules, Expo, performance profiling, biometrics, offline storage.</p>
+          <div class="skill-level-bar"><div class="skill-level-fill" style="width: 95%;"></div></div>
+        </div>
+
+        <!-- Skill Item 2 -->
+        <div class="skill-card" data-category="frontend">
+          <div class="skill-head">
+            <div class="skill-icon-box">💻</div>
+            <div>
+              <div class="skill-name">React.js & Next.js</div>
+              <span style="font-size: 0.8rem; color: var(--accent-cyan);">Web Applications</span>
+            </div>
+          </div>
+          <p style="font-size: 0.88rem; color: var(--text-muted);">SSR, SSG, TypeScript, modern hooks pattern, state management with Redux, MobX & Context API.</p>
+          <div class="skill-level-bar"><div class="skill-level-fill" style="width: 92%;"></div></div>
+        </div>
+
+        <!-- Skill Item 3 -->
+        <div class="skill-card" data-category="frontend">
+          <div class="skill-head">
+            <div class="skill-icon-box">📘</div>
+            <div>
+              <div class="skill-name">TypeScript & JS (ES6+)</div>
+              <span style="font-size: 0.8rem; color: var(--accent-cyan);">Strict Type Safety</span>
+            </div>
+          </div>
+          <p style="font-size: 0.88rem; color: var(--text-muted);">Type-safe codebases, custom generic interfaces, scalable data structures, clean code practices.</p>
+          <div class="skill-level-bar"><div class="skill-level-fill" style="width: 90%;"></div></div>
+        </div>
+
+        <!-- Skill Item 4 -->
+        <div class="skill-card" data-category="tools">
+          <div class="skill-head">
+            <div class="skill-icon-box">🧪</div>
+            <div>
+              <div class="skill-name">Jest & Detox (E2E)</div>
+              <span style="font-size: 0.8rem; color: var(--accent-cyan);">Automated Testing</span>
+            </div>
+          </div>
+          <p style="font-size: 0.88rem; color: var(--text-muted);">Achieved 85%+ test coverage, React Testing Library, unit & end-to-end integration pipelines.</p>
+          <div class="skill-level-bar"><div class="skill-level-fill" style="width: 88%;"></div></div>
+        </div>
+
+        <!-- Skill Item 5 -->
+        <div class="skill-card" data-category="mobile">
+          <div class="skill-head">
+            <div class="skill-icon-box">🎨</div>
+            <div>
+              <div class="skill-name">Tailwind, Material & UI/UX</div>
+              <span style="font-size: 0.8rem; color: var(--accent-cyan);">Pixel-Perfect Design</span>
+            </div>
+          </div>
+          <p style="font-size: 0.88rem; color: var(--text-muted);">Figma-to-Code precision, glassmorphism, responsive web layouts, dark modes, animations.</p>
+          <div class="skill-level-bar"><div class="skill-level-fill" style="width: 94%;"></div></div>
+        </div>
+
+        <!-- Skill Item 6 -->
+        <div class="skill-card" data-category="tools">
+          <div class="skill-head">
+            <div class="skill-icon-box">⚙️</div>
+            <div>
+              <div class="skill-name">CI/CD & App Deployment</div>
+              <span style="font-size: 0.8rem; color: var(--accent-cyan);">Store Publishing</span>
+            </div>
+          </div>
+          <p style="font-size: 0.88rem; color: var(--text-muted);">App Store & Google Play Store release management, Fastlane, GitHub Actions, Firebase, App Center.</p>
+          <div class="skill-level-bar"><div class="skill-level-fill" style="width: 85%;"></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK EXPERIENCE TIMELINE -->
+    <section class="container" id="experience">
+      <div class="section-header">
+        <span class="section-tag">Career History</span>
+        <h2 class="section-title">Professional Experience</h2>
+        <p class="section-desc">Track record of building production software, improving app speed, and mentoring teams.</p>
+      </div>
+
+      <div class="timeline">
+        <!-- Position 1 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="role-header">
+              <div>
+                <h3 class="role-title">Frontend Developer (Mobile Focus)</h3>
+                <div class="company-name">Applivity Software Services • Islamabad, Pakistan</div>
+              </div>
+              <span class="role-date">Oct 2023 – Present</span>
+            </div>
+
+            <ul class="role-points">
+              <li>
+                Engineered production React Native apps for iOS & Android with consistent UX across platforms.
+              </li>
+              <li>
+                Achieved <strong>30x improvement</strong> in application performance through lazy loading, code splitting, and render tree optimization. <span class="impact-badge">⚡ 30x Performance</span>
+              </li>
+              <li>
+                Implemented biometric authentication (Face ID, Fingerprint) for secure user data protection. <span class="impact-badge">🔒 Biometric Security</span>
+              </li>
+              <li>
+                Built reusable component library cutting development time by <strong>45%</strong> across multiple projects. <span class="impact-badge">🚀 45% Faster Dev</span>
+              </li>
+              <li>
+                Integrated RESTful and GraphQL APIs for real-time data synchronization.
+              </li>
+              <li>
+                Mentored junior developers through pair programming and code reviews.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Position 2 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="role-header">
+              <div>
+                <h3 class="role-title">Frontend Developer</h3>
+                <div class="company-name">HighTicket.io • Remote</div>
+              </div>
+              <span class="role-date">Aug 2024 – Oct 2024</span>
+            </div>
+
+            <ul class="role-points">
+              <li>
+                Built responsive mobile-first e-commerce solutions with React Native and React.
+              </li>
+              <li>
+                Optimized app loading times from <strong>8.0s down to 0.27s</strong>, improving user retention by <strong>42%</strong>. <span class="impact-badge">⚡ 8s ➔ 0.27s</span>
+              </li>
+              <li>
+                Integrated AI-powered features for intelligent product recommendations and automated customer support.
+              </li>
+              <li>
+                Fixed critical bugs in production apps, boosting app stability and client satisfaction by 35%.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Position 3 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="role-header">
+              <div>
+                <h3 class="role-title">Freelance Mobile & Web Developer</h3>
+                <div class="company-name">Fiverr • Remote</div>
+              </div>
+              <span class="role-date">Feb 2022 – July 2023</span>
+            </div>
+
+            <ul class="role-points">
+              <li>
+                Delivered 20+ mobile and web projects with emphasis on code quality and client satisfaction. <span class="impact-badge">⭐ 100% 5-Star Reviews</span>
+              </li>
+              <li>
+                Built React Native applications from scratch, including auth flows, navigation, push notifications, and deep linking.
+              </li>
+              <li>
+                Developed Progressive Web Apps (PWA) with offline capabilities.
+              </li>
+              <li>
+                Set up Jest and React Testing Library achieving <strong>85%+ code coverage</strong>.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="container" id="contact">
+      <div class="contact-card">
+        <span class="section-tag">Let's Connect</span>
+        <h2 style="font-size: 2.5rem; margin-top: 10px; margin-bottom: 16px;">Ready to build high-impact applications together?</h2>
+        <p style="color: var(--text-muted); max-width: 580px; margin: 0 auto; font-size: 1.05rem;">
+          Whether you're looking for a Senior React Native / Front-End Engineer for full-time roles, relocation opportunities in Amsterdam, or technical consulting.
+        </p>
+
+        <button id="copy-email-btn" onclick="navigator.clipboard.writeText('hassandev8@gmail.com'); showToast('Copied hassandev8@gmail.com to clipboard!')" class="btn btn-primary contact-email-btn">
+          📩 Copy Email: hassandev8@gmail.com
+        </button>
+
+        <div style="margin-top: 32px; display: flex; justify-content: center; gap: 20px;">
+          <a href="https://github.com/Hassankhn" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+            GitHub: @Hassankhn
+          </a>
+          <a href="tel:+923453522795" class="btn btn-outline">
+            📞 +92 345 3522795
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 Hassan Khan. Designed with React & Vanilla CSS Glassmorphism.</p>
+    </div>
+  </footer>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast">Copied to clipboard!</div>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
