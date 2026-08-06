@@ -3,10 +3,7 @@
   # Hi there, I'm Hassan Khan 👋 
   ### **Senior React Native & Front-End Engineer**
   
-  [![Live Portfolio](https://img.shields.io/badge/🌐_Interactive_Portfolio-Click_to_View-00f2fe?style=for-the-badge&logoColor=white)](https://hassankhn.github.io/Hassankhn/)
-  [![Open to Relocation](https://img.shields.io/badge/Relocation-Open%20to%20Amsterdam-00f2fe?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
-  [![Email](https://img.shields.io/badge/Email-hassandev8%40gmail.com-4facfe?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hassandev8@gmail.com)
-  [![GitHub Followers](https://img.shields.io/github/followers/Hassankhn?style=for-the-badge&color=7f00ff&logo=github)](https://github.com/Hassankhn)
+  [![Open to Relocation](https://img.shields.io/badge/Open%20to%20Relocation-Amsterdam-00f2fe?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
 
   <br />
 
