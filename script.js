@@ -33,10 +33,10 @@ function initTypewriter() {
   if (!targetEl) return;
 
   const phrases = [
-    'Senior React Native Engineer',
-    'Front-End Web Specialist',
-    'Performance Optimization Expert',
-    'Cross-Platform Architect'
+    'Lead Frontend Developer',
+    'React & Next.js Architect',
+    'SaaS & AI Products Specialist',
+    'Frontend Systems Engineer'
   ];
 
   let phraseIdx = 0;
@@ -100,7 +100,6 @@ async function fetchGitHubData() {
     }
   } catch (err) {
     console.warn('GitHub API offline or rate-limited. Using fallback static stats.', err);
-    // Fallback data is already present in HTML
   }
 }
 
@@ -116,7 +115,7 @@ function renderRepos(repos) {
         </svg>
         ${repo.name}
       </a>
-      <p class="repo-desc">${repo.description || 'Public repository showcasing React Native and front-end engineering solutions.'}</p>
+      <p class="repo-desc">${repo.description || 'Frontend engineering and React/Next.js architecture solutions.'}</p>
       <div style="margin-top: 10px; font-size: 0.78rem; color: var(--accent-cyan); font-weight: 600;">
         ⚡ ${repo.language || 'TypeScript'} • ⭐ ${repo.stargazers_count}
       </div>
@@ -154,7 +153,6 @@ function initSkillTabs() {
    -------------------------------------------------------------------------- */
 function initCopyEmail() {
   const copyBtn = document.getElementById('copy-email-btn');
-  const toast = document.getElementById('toast');
 
   if (!copyBtn) return;
 
@@ -235,53 +233,52 @@ function initTerminalTabs() {
   if (!codeDisplay) return;
 
   const snippets = {
-    reactNative: `
-<span class="code-comment">// Hassan Khan - Senior React Native Engineer</span>
-<span class="code-keyword">import</span> React, { useCallback, useMemo } <span class="code-keyword">from</span> <span class="code-string">'react'</span>;
-<span class="code-keyword">import</span> { View, Text, StyleSheet, Pressable } <span class="code-keyword">from</span> <span class="code-string">'react-native'</span>;
+    agentic: `
+<span class="code-comment">// Human-in-the-Loop Agentic Development Workflow</span>
+<span class="code-keyword">import</span> { AntigravityAgent, MCPRegistry } <span class="code-keyword">from</span> <span class="code-string">'@agentic/core'</span>;
 
-<span class="code-keyword">export const</span> <span class="code-function">PerformanceOptimizedList</span> = ({ items }) => {
-  <span class="code-comment">// 30x Performance Boost via Render Optimization & Lazy Loading</span>
-  <span class="code-keyword">const</span> renderItem = <span class="code-function">useCallback</span>(({ item }) => (
-    &lt;<span class="code-prop">ItemCard</span> key={item.id} data={item} /&gt;
-  ), []);
+<span class="code-keyword">export class</span> <span class="code-function">HumanInTheLoopPipeline</span> {
+  <span class="code-keyword">async</span> <span class="code-function">executeJiraTask</span>(issueId: <span class="code-string">string</span>) {
+    <span class="code-keyword">const</span> task = <span class="code-keyword">await</span> Jira.getIssue(issueId);
+    <span class="code-keyword">const</span> plan = <span class="code-keyword">await</span> AntigravityAgent.inspectAndPlan(task);
 
-  <span class="code-keyword">return</span> (
-    &lt;<span class="code-prop">View</span> style={styles.container}&gt;
-      &lt;<span class="code-prop">Text</span> style={styles.badge}&gt;500K+ Active Users Supported&lt;/<span class="code-prop">Text</span>&gt;
-    &lt;/<span class="code-prop">View</span>&gt;
-  );
-};`,
+    <span class="code-comment">// Strict boundary: requires human approval before code mutation</span>
+    <span class="code-keyword">if</span> (!<span class="code-keyword">await</span> HumanReview.approve(plan)) <span class="code-keyword">return</span>;
+
+    <span class="code-keyword">const</span> result = <span class="code-keyword">await</span> AntigravityAgent.applyChanges(plan);
+    <span class="code-keyword">return</span> GitHub.createPullRequest(result);
+  }
+}`,
     config: `
-<span class="code-comment">// Developer Profile Configuration</span>
+<span class="code-comment">// Lead Frontend Developer Profile Configuration</span>
 <span class="code-keyword">const</span> HassanKhan = {
   name: <span class="code-string">"Hassan Khan"</span>,
-  title: <span class="code-string">"Senior React Native & Front-End Engineer"</span>,
-  location: <span class="code-string">"Islamabad, Pakistan (Open to Relocation - Amsterdam)"</span>,
+  title: <span class="code-string">"Lead Frontend Developer"</span>,
+  status: <span class="code-string">"Remote & Open to Relocate"</span>,
   experienceYears: <span class="code-number">3.5</span>,
-  coreStack: [<span class="code-string">"React Native"</span>, <span class="code-string">"React.js"</span>, <span class="code-string">"Next.js"</span>, <span class="code-string">"TypeScript"</span>, <span class="code-string">"Redux/MobX"</span>],
+  coreStack: [<span class="code-string">"React.js"</span>, <span class="code-string">"TypeScript"</span>, <span class="code-string">"Next.js"</span>, <span class="code-string">"Frontend Architecture"</span>, <span class="code-string">"React Native"</span>],
   impact: {
-    userScale: <span class="code-string">"500,000+"</span>,
-    perfSpeedup: <span class="code-string">"30x"</span>,
-    clientSatisfaction: <span class="code-string">"100% (5-Star Reviews)"</span>
+    clientRating: <span class="code-string">"4.8★"</span>,
+    domain: <span class="code-string">"SaaS, Enterprise Software, FinTech & AI Products"</span>,
+    agenticAI: <span class="code-string">"Antigravity, MCP, Jira & GitHub Workflows"</span>
   }
 };`
   };
 
-  const btnRN = document.getElementById('terminal-tab-rn');
+  const btnAgent = document.getElementById('terminal-tab-rn');
   const btnCfg = document.getElementById('terminal-tab-cfg');
 
-  if (btnRN && btnCfg) {
-    btnRN.addEventListener('click', () => {
-      codeDisplay.innerHTML = snippets.reactNative;
-      btnRN.style.color = 'var(--accent-cyan)';
+  if (btnAgent && btnCfg) {
+    btnAgent.addEventListener('click', () => {
+      codeDisplay.innerHTML = snippets.agentic;
+      btnAgent.style.color = 'var(--accent-cyan)';
       btnCfg.style.color = 'var(--text-muted)';
     });
 
     btnCfg.addEventListener('click', () => {
       codeDisplay.innerHTML = snippets.config;
       btnCfg.style.color = 'var(--accent-cyan)';
-      btnRN.style.color = 'var(--text-muted)';
+      btnAgent.style.color = 'var(--text-muted)';
     });
   }
 }
