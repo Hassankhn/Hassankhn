@@ -45,18 +45,7 @@ Lead Frontend Developer with **3+ years architecting frontend systems** for prod
 
 </div>
 
-<br />
 
-## 📊 GitHub Activity & Metrics
-
-<div align="center">
-
-  <img src="https://github-readme-stats.vercel.app/api?username=Hassankhn&show_icons=true&theme=dark&hide_border=false" alt="Hassan Khan's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hassankhn&layout=compact&theme=dark&hide_border=false" alt="Top Languages" />
-
-</div>
-
----
 
 ## 💼 Experience Overview
 
